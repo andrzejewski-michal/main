@@ -1,3506 +1,5638 @@
-
-import type { FemaleName } from '../types'
+import type { FemaleName } from "../types";
 
 export const FEMALE_NAMES: FemaleName[] = [
-
-{
-  "name": "Ada",
-  "popularity": 120000,
-  "meaning": "szlachetna, wzniosła",
-  "category": "popularne"
-},
-
-{
-  "name": "Adamina",
-  "popularity": 120000,
-  "meaning": "córka Adama",
-  "category": "rzadkie"
-},
-
-{
-  "name": "Adela",
-  "popularity": 119960,
-  "meaning": "szlachetna",
-  "category": "popularne"
-},
-
-{
-  "name": "Adelina",
-  "popularity": 119960,
-  "meaning": "szlachetna, delikatna",
-  "category": "rzadkie"
-},
-
-{
-  "name": "Adriana",
-  "popularity": 119920,
-  "meaning": "z Adriy",
-  "category": "popularne"
-},
-
-{
-  "name": "Adrianna",
-  "popularity": 119920,
-  "meaning": "z Adriy",
-  "category": "popularne"
-},
-
-{
-  "name": "Agata",
-  "popularity": 119880,
-  "meaning": "dobra",
-  "category": "popularne"
-},
-
-{
-  "name": "Agnieszka",
-  "popularity": 119880,
-  "meaning": "czysta",
-  "category": "popularne"
-},
-
-{
-  "name": "Aida",
-  "popularity": 119840,
-  "meaning": "wspaniała",
-  "category": "nowoczesne"
-},
-
-{
-  "name": "Ala",
-  "popularity": 119840,
-  "meaning": "inna",
-  "category": "popularne"
-},
-
-{
-  "name": "Alana",
-  "popularity": 119800,
-  "meaning": "piękna",
-  "category": "nowoczesne"
-},
-
-{
-  "name": "Alberta",
-  "popularity": 119800,
-  "meaning": "jasna",
-  "category": "popularne"
-},
-
-{
-  "name": "Albina",
-  "popularity": 119760,
-  "meaning": "biała",
-  "category": "popularne"
-},
-
-{
-  "name": "Aldona",
-  "popularity": 119760,
-  "meaning": "przyjaciółka",
-  "category": "popularne"
-},
-
-{
-  "name": "Aleksandra",
-  "popularity": 119720,
-  "meaning": "obrończyni",
-  "category": "popularne"
-},
-
-{
-  "name": "Alena",
-  "popularity": 119720,
-  "meaning": "jasna",
-  "category": "popularne"
-},
-
-{
-  "name": "Alexandra",
-  "popularity": 119680,
-  "meaning": "obrończyni",
-  "category": "popularne"
-},
-
-{
-  "name": "Alfreda",
-  "popularity": 119680,
-  "meaning": "elficka rada",
-  "category": "rzadkie"
-},
-
-{
-  "name": "Alicja",
-  "popularity": 119640,
-  "meaning": "szlachetna",
-  "category": "popularne"
-},
-
-{
-  "name": "Alina",
-  "popularity": 119640,
-  "meaning": "jasna",
-  "category": "popularne"
-},
-
-{
-  "name": "Alma",
-  "popularity": 119600,
-  "meaning": "wspaniała",
-  "category": "nowoczesne"
-},
-
-{
-  "name": "Amalia",
-  "popularity": 119600,
-  "meaning": "pracowita",
-  "category": "popularne"
-},
-
-{
-  "name": "Amelia",
-  "popularity": 119560,
-  "meaning": "pracowita",
-  "category": "popularne"
-},
-
-{
-  "name": "Amina",
-  "popularity": 119560,
-  "meaning": "godna zaufania",
-  "category": "nowoczesne"
-},
-
-{
-  "name": "Anastazja",
-  "popularity": 119520,
-  "meaning": "zmartwychwstała",
-  "category": "popularne"
-},
-
-{
-  "name": "Anatolia",
-  "popularity": 119520,
-  "meaning": "ze Wschodu",
-  "category": "rzadkie"
-},
-
-{
-  "name": "Andrea",
-  "popularity": 119480,
-  "meaning": "mężna",
-  "category": "popularne"
-},
-
-{
-  "name": "Andrzela",
-  "popularity": 119480,
-  "meaning": "mężna",
-  "category": "rzadkie"
-},
-
-{
-  "name": "Andżelika",
-  "popularity": 119440,
-  "meaning": "anielska",
-  "category": "popularne"
-},
-
-{
-  "name": "Andżelina",
-  "popularity": 119440,
-  "meaning": "anielska",
-  "category": "popularne"
-},
-
-{
-  "name": "Aneta",
-  "popularity": 119400,
-  "meaning": "łaskawa",
-  "category": "popularne"
-},
-
-{
-  "name": "Angela",
-  "popularity": 119400,
-  "meaning": "anielska",
-  "category": "popularne"
-},
-
-{
-  "name": "Angelika",
-  "popularity": 119360,
-  "meaning": "anielska",
-  "category": "popularne"
-},
-
-{
-  "name": "Angelina",
-  "popularity": 119360,
-  "meaning": "anielska",
-  "category": "popularne"
-},
-
-{
-  "name": "Aniela",
-  "popularity": 119320,
-  "meaning": "anielska",
-  "category": "popularne"
-},
-
-{
-  "name": "Anika",
-  "popularity": 119320,
-  "meaning": "łaskawa",
-  "category": "nowoczesne"
-},
-
-{
-  "name": "Anita",
-  "popularity": 119280,
-  "meaning": "łaskawa",
-  "category": "popularne"
-},
-
-{
-  "name": "Anja",
-  "popularity": 119280,
-  "meaning": "łaskawa",
-  "category": "popularne"
-},
-
-{
-  "name": "Anna",
-  "popularity": 119240,
-  "meaning": "łaskawa",
-  "category": "popularne"
-},
-
-{
-  "name": "Annabella",
-  "popularity": 119240,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Annabelle",
-  "popularity": 119200,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Annalena",
-  "popularity": 119200,
-  "meaning": "łaskawa i jasna",
-  "category": "rzadkie"
-},
-
-{
-  "name": "Annalisa",
-  "popularity": 119160,
-  "meaning": "łaskawa",
-  "category": "popularne"
-},
-
-{
-  "name": "Annette",
-  "popularity": 119160,
-  "meaning": "łaskawa",
-  "category": "popularne"
-},
-
-{
-  "name": "Annika",
-  "popularity": 119120,
-  "meaning": "łaskawa",
-  "category": "popularne"
-},
-
-{
-  "name": "Antoinetta",
-  "popularity": 119120,
-  "meaning": "godna",
-  "category": "popularne"
-},
-
-{
-  "name": "Antonia",
-  "popularity": 119080,
-  "meaning": "godna",
-  "category": "popularne"
-},
-
-{
-  "name": "Antonina",
-  "popularity": 119080,
-  "meaning": "godna",
-  "category": "popularne"
-},
-
-{
-  "name": "Anuška",
-  "popularity": 119040,
-  "meaning": "łaskawa",
-  "category": "nowoczesne"
-},
-
-{
-  "name": "Anuta",
-  "popularity": 119040,
-  "meaning": "łaskawa",
-  "category": "rzadkie"
-},
-
-{
-  "name": "Anya",
-  "popularity": 119000,
-  "meaning": "łaskawa",
-  "category": "popularne"
-},
-
-{
-  "name": "Apolonia",
-  "popularity": 119000,
-  "meaning": "poświęcona",
-  "category": "popularne"
-},
-
-{
-  "name": "Aprile",
-  "popularity": 118960,
-  "meaning": "kwiecień",
-  "category": "nowoczesne"
-},
-
-{
-  "name": "Arabella",
-  "popularity": 118960,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Araceli",
-  "popularity": 118920,
-  "meaning": "ołtarz nieba",
-  "category": "nowoczesne"
-},
-
-{
-  "name": "Aracelia",
-  "popularity": 118920,
-  "meaning": "ołtarz nieba",
-  "category": "rzadkie"
-},
-
-{
-  "name": "Aranzazu",
-  "popularity": 118880,
-  "meaning": "pomarańcza",
-  "category": "popularne"
-},
-
-{
-  "name": "Arberta",
-  "popularity": 118880,
-  "meaning": "jasna",
-  "category": "popularne"
-},
-
-{
-  "name": "Barbara",
-  "popularity": 118840,
-  "meaning": "obca",
-  "category": "popularne"
-},
-
-{
-  "name": "Barbarina",
-  "popularity": 118840,
-  "meaning": "obca",
-  "category": "popularne"
-},
-
-{
-  "name": "Barbarita",
-  "popularity": 118800,
-  "meaning": "obca",
-  "category": "nowoczesne"
-},
-
-{
-  "name": "Barbika",
-  "popularity": 118800,
-  "meaning": "obca",
-  "category": "popularne"
-},
-
-{
-  "name": "Basia",
-  "popularity": 118760,
-  "meaning": "królewna",
-  "category": "popularne"
-},
-
-{
-  "name": "Basiana",
-  "popularity": 118760,
-  "meaning": "królewna",
-  "category": "nowoczesne"
-},
-
-{
-  "name": "Basilisa",
-  "popularity": 118720,
-  "meaning": "cesarzowa",
-  "category": "rzadkie"
-},
-
-{
-  "name": "Basilissa",
-  "popularity": 118720,
-  "meaning": "cesarzowa",
-  "category": "rzadkie"
-},
-
-{
-  "name": "Basilida",
-  "popularity": 118680,
-  "meaning": "królewna",
-  "category": "rzadkie"
-},
-
-{
-  "name": "Basilike",
-  "popularity": 118680,
-  "meaning": "królewna",
-  "category": "popularne"
-},
-
-{
-  "name": "Basilina",
-  "popularity": 118640,
-  "meaning": "królewna",
-  "category": "popularne"
-},
-
-{
-  "name": "Basillis",
-  "popularity": 118640,
-  "meaning": "królewna",
-  "category": "popularne"
-},
-
-{
-  "name": "Basillia",
-  "popularity": 118600,
-  "meaning": "królewna",
-  "category": "popularne"
-},
-
-{
-  "name": "Basilone",
-  "popularity": 118600,
-  "meaning": "królewna",
-  "category": "popularne"
-},
-
-{
-  "name": "Basillos",
-  "popularity": 118560,
-  "meaning": "królewna",
-  "category": "popularne"
-},
-
-{
-  "name": "Beatrisa",
-  "popularity": 118560,
-  "meaning": "szczęście",
-  "category": "popularne"
-},
-
-{
-  "name": "Beatris",
-  "popularity": 118520,
-  "meaning": "szczęście",
-  "category": "popularne"
-},
-
-{
-  "name": "Beatrice",
-  "popularity": 118520,
-  "meaning": "szczęście",
-  "category": "popularne"
-},
-
-{
-  "name": "Beatricia",
-  "popularity": 118480,
-  "meaning": "szczęście",
-  "category": "popularne"
-},
-
-{
-  "name": "Beatrina",
-  "popularity": 118480,
-  "meaning": "szczęście",
-  "category": "popularne"
-},
-
-{
-  "name": "Beatrine",
-  "popularity": 118440,
-  "meaning": "szczęście",
-  "category": "popularne"
-},
-
-{
-  "name": "Belia",
-  "popularity": 118440,
-  "meaning": "szczęście",
-  "category": "popularne"
-},
-
-{
-  "name": "Belina",
-  "popularity": 118400,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Belinda",
-  "popularity": 118400,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Belisanda",
-  "popularity": 118360,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Belisande",
-  "popularity": 118360,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Belisa",
-  "popularity": 118320,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Belita",
-  "popularity": 118320,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Belitana",
-  "popularity": 118280,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Belitane",
-  "popularity": 118280,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Belitania",
-  "popularity": 118240,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Belitina",
-  "popularity": 118240,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Belitinna",
-  "popularity": 118200,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Belitella",
-  "popularity": 118200,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Belitelle",
-  "popularity": 118160,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Belitena",
-  "popularity": 118160,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Belite",
-  "popularity": 118120,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Belitra",
-  "popularity": 118120,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Belithea",
-  "popularity": 118080,
-  "meaning": "piękna",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernadeta",
-  "popularity": 118080,
-  "meaning": "niedźwiedź",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernadetta",
-  "popularity": 118040,
-  "meaning": "niedźwiedź",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernadine",
-  "popularity": 118040,
-  "meaning": "niedźwiedź",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernadina",
-  "popularity": 118000,
-  "meaning": "niedźwiedź",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernardyna",
-  "popularity": 118000,
-  "meaning": "niedźwiedź",
-  "category": "popularne"
-},
-
-{
-  "name": "Berenika",
-  "popularity": 117960,
-  "meaning": "zwycięstwo",
-  "category": "popularne"
-},
-
-{
-  "name": "Berenilla",
-  "popularity": 117960,
-  "meaning": "zwycięstwo",
-  "category": "popularne"
-},
-
-{
-  "name": "Berenissa",
-  "popularity": 117920,
-  "meaning": "zwycięstwo",
-  "category": "popularne"
-},
-
-{
-  "name": "Berenita",
-  "popularity": 117920,
-  "meaning": "zwycięstwo",
-  "category": "popularne"
-},
-
-{
-  "name": "Berdyna",
-  "popularity": 117880,
-  "meaning": "niedźwiedź",
-  "category": "nowoczesne"
-},
-
-{
-  "name": "Berga",
-  "popularity": 117880,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bergalina",
-  "popularity": 117840,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berganda",
-  "popularity": 117840,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bergania",
-  "popularity": 117800,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bergela",
-  "popularity": 117800,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bergenia",
-  "popularity": 117760,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bergera",
-  "popularity": 117760,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bergeria",
-  "popularity": 117720,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bergina",
-  "popularity": 117720,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bergita",
-  "popularity": 117680,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bergitana",
-  "popularity": 117680,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bergitta",
-  "popularity": 117640,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bergunda",
-  "popularity": 117640,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berguta",
-  "popularity": 117600,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berhamia",
-  "popularity": 117600,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berharda",
-  "popularity": 117560,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berhara",
-  "popularity": 117560,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berharia",
-  "popularity": 117520,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berharina",
-  "popularity": 117520,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berhasia",
-  "popularity": 117480,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berha",
-  "popularity": 117480,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Beria",
-  "popularity": 117440,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berianna",
-  "popularity": 117440,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Beriana",
-  "popularity": 117400,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Beriane",
-  "popularity": 117400,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berida",
-  "popularity": 117360,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Beridana",
-  "popularity": 117360,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Beridella",
-  "popularity": 117320,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Beridina",
-  "popularity": 117320,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Beriel",
-  "popularity": 117280,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Beriela",
-  "popularity": 117280,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berielda",
-  "popularity": 117240,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berielina",
-  "popularity": 117240,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berigarde",
-  "popularity": 117200,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berigarda",
-  "popularity": 117200,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berigardia",
-  "popularity": 117160,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berlina",
-  "popularity": 117160,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berlinda",
-  "popularity": 117120,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berlinn",
-  "popularity": 117120,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berlinna",
-  "popularity": 117080,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berlise",
-  "popularity": 117080,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berlista",
-  "popularity": 117040,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berlita",
-  "popularity": 117040,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berlitana",
-  "popularity": 117000,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernatella",
-  "popularity": 117000,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernata",
-  "popularity": 116960,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernatta",
-  "popularity": 116960,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernaude",
-  "popularity": 116920,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernardella",
-  "popularity": 116920,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernadelle",
-  "popularity": 116880,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernadiene",
-  "popularity": 116880,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernardina",
-  "popularity": 116840,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernadina",
-  "popularity": 116840,
-  "meaning": "niedźwiedź",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernadinna",
-  "popularity": 116800,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernadette",
-  "popularity": 116800,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernadine",
-  "popularity": 116760,
-  "meaning": "niedźwiedź",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernadyna",
-  "popularity": 116760,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernadyta",
-  "popularity": 116720,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernadytt",
-  "popularity": 116720,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernalda",
-  "popularity": 116680,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernaldan",
-  "popularity": 116680,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernaldin",
-  "popularity": 116640,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernalina",
-  "popularity": 116640,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernalinda",
-  "popularity": 116600,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernalinna",
-  "popularity": 116600,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernalisse",
-  "popularity": 116560,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernalita",
-  "popularity": 116560,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernallia",
-  "popularity": 116520,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernella",
-  "popularity": 116520,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernelle",
-  "popularity": 116480,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernelleen",
-  "popularity": 116480,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernellie",
-  "popularity": 116440,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernelline",
-  "popularity": 116440,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernesyna",
-  "popularity": 116400,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berneta",
-  "popularity": 116400,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernetella",
-  "popularity": 116360,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernetelle",
-  "popularity": 116360,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernethea",
-  "popularity": 116320,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernetha",
-  "popularity": 116320,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernethella",
-  "popularity": 116280,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernethelle",
-  "popularity": 116280,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernethena",
-  "popularity": 116240,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernethenia",
-  "popularity": 116240,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernetheniel",
-  "popularity": 116200,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernethia",
-  "popularity": 116200,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernia",
-  "popularity": 116160,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berniana",
-  "popularity": 116160,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernianna",
-  "popularity": 116120,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernianne",
-  "popularity": 116120,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berniano",
-  "popularity": 116080,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernie",
-  "popularity": 116080,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berniela",
-  "popularity": 116040,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berniele",
-  "popularity": 116040,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berniella",
-  "popularity": 116000,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernita",
-  "popularity": 116000,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernitra",
-  "popularity": 115960,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernitrice",
-  "popularity": 115960,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernittela",
-  "popularity": 115920,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernius",
-  "popularity": 115920,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berniusa",
-  "popularity": 115880,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernizela",
-  "popularity": 115880,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Berniza",
-  "popularity": 115840,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernizabeth",
-  "popularity": 115840,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernizina",
-  "popularity": 115800,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernizine",
-  "popularity": 115800,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernizita",
-  "popularity": 115760,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bernizza",
-  "popularity": 115760,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Boguslawa",
-  "popularity": 115720,
-  "meaning": "Boga chwała",
-  "category": "popularne"
-},
-
-{
-  "name": "Bogna",
-  "popularity": 115720,
-  "meaning": "Boża",
-  "category": "popularne"
-},
-
-{
-  "name": "Bojena",
-  "popularity": 115680,
-  "meaning": "wojownik Boga",
-  "category": "popularne"
-},
-
-{
-  "name": "Bojenna",
-  "popularity": 115680,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bolesława",
-  "popularity": 115640,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bolesławina",
-  "popularity": 115640,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bolesławka",
-  "popularity": 115600,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bolesławna",
-  "popularity": 115600,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bona",
-  "popularity": 115560,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonacorsa",
-  "popularity": 115560,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonafida",
-  "popularity": 115520,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonafide",
-  "popularity": 115520,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonagracia",
-  "popularity": 115480,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonamara",
-  "popularity": 115480,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonamia",
-  "popularity": 115440,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonami",
-  "popularity": 115440,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonamiccia",
-  "popularity": 115400,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonamici",
-  "popularity": 115400,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonamichja",
-  "popularity": 115360,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonamika",
-  "popularity": 115360,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonamilla",
-  "popularity": 115320,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonamica",
-  "popularity": 115320,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonamonda",
-  "popularity": 115280,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonamondina",
-  "popularity": 115280,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonamondyna",
-  "popularity": 115240,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonamundo",
-  "popularity": 115240,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonamundyna",
-  "popularity": 115200,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonana",
-  "popularity": 115200,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanare",
-  "popularity": 115160,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanaria",
-  "popularity": 115160,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanata",
-  "popularity": 115120,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanda",
-  "popularity": 115120,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonandella",
-  "popularity": 115080,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonandika",
-  "popularity": 115080,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonandilla",
-  "popularity": 115040,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonandina",
-  "popularity": 115040,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonandinna",
-  "popularity": 115000,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonandita",
-  "popularity": 115000,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonandola",
-  "popularity": 114960,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonandoza",
-  "popularity": 114960,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanella",
-  "popularity": 114920,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanella",
-  "popularity": 114920,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonania",
-  "popularity": 114880,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanica",
-  "popularity": 114880,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanida",
-  "popularity": 114840,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanidda",
-  "popularity": 114840,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonaniga",
-  "popularity": 114800,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanigga",
-  "popularity": 114800,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanilla",
-  "popularity": 114760,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanilla",
-  "popularity": 114760,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanina",
-  "popularity": 114720,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonaninna",
-  "popularity": 114720,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanisa",
-  "popularity": 114680,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanisza",
-  "popularity": 114680,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanita",
-  "popularity": 114640,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonaniza",
-  "popularity": 114640,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanizza",
-  "popularity": 114600,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanna",
-  "popularity": 114600,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonannia",
-  "popularity": 114560,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonano",
-  "popularity": 114560,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanola",
-  "popularity": 114520,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanone",
-  "popularity": 114520,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanonia",
-  "popularity": 114480,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanosa",
-  "popularity": 114480,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanota",
-  "popularity": 114440,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanotta",
-  "popularity": 114440,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowa",
-  "popularity": 114400,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowna",
-  "popularity": 114400,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowska",
-  "popularity": 114360,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowska",
-  "popularity": 114360,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowska",
-  "popularity": 114320,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowska",
-  "popularity": 114320,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowska",
-  "popularity": 114280,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowska",
-  "popularity": 114280,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowska",
-  "popularity": 114240,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowska",
-  "popularity": 114240,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowska",
-  "popularity": 114200,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowska",
-  "popularity": 114200,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowska",
-  "popularity": 114160,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowska",
-  "popularity": 114160,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowska",
-  "popularity": 114120,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowska",
-  "popularity": 114120,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowska",
-  "popularity": 114080,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowska",
-  "popularity": 114080,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowska",
-  "popularity": 114040,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowa",
-  "popularity": 114040,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowy",
-  "popularity": 114000,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowyk",
-  "popularity": 114000,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowyna",
-  "popularity": 113960,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanowyna",
-  "popularity": 113960,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanog",
-  "popularity": 113920,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanoga",
-  "popularity": 113920,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanogal",
-  "popularity": 113880,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanom",
-  "popularity": 113880,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanoma",
-  "popularity": 113840,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanoman",
-  "popularity": 113840,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanonka",
-  "popularity": 113800,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanopa",
-  "popularity": 113800,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanopala",
-  "popularity": 113760,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanoparta",
-  "popularity": 113760,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanopella",
-  "popularity": 113720,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanopelta",
-  "popularity": 113720,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanopessa",
-  "popularity": 113680,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanopeza",
-  "popularity": 113680,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanophia",
-  "popularity": 113640,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanophila",
-  "popularity": 113640,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanophile",
-  "popularity": 113600,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanophilia",
-  "popularity": 113600,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanophillia",
-  "popularity": 113560,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanophillit",
-  "popularity": 113560,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanopho",
-  "popularity": 113520,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanophota",
-  "popularity": 113520,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanora",
-  "popularity": 113480,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorail",
-  "popularity": 113480,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorah",
-  "popularity": 113440,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanoral",
-  "popularity": 113440,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanore",
-  "popularity": 113400,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonaroecia",
-  "popularity": 113400,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonarom",
-  "popularity": 113360,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanora",
-  "popularity": 113360,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorah",
-  "popularity": 113320,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanoral",
-  "popularity": 113320,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanore",
-  "popularity": 113280,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonarorcia",
-  "popularity": 113280,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanori",
-  "popularity": 113240,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanoria",
-  "popularity": 113240,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorie",
-  "popularity": 113200,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorie",
-  "popularity": 113200,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanories",
-  "popularity": 113160,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorie",
-  "popularity": 113160,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 113120,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 113120,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 113080,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 113080,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 113040,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 113040,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 113000,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 113000,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112960,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112960,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112920,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112920,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112880,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112880,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112840,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112840,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112800,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112800,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112760,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112760,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112720,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112720,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112680,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112680,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112640,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112640,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112600,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112600,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112560,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112560,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112520,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112520,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112480,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112480,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112440,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112440,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112400,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112400,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112360,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112360,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112320,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112320,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112280,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112280,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112240,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112240,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112200,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112200,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112160,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112160,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112120,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112120,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112080,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112080,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112040,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112040,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112000,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 112000,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111960,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111960,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111920,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111920,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111880,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111880,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111840,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111840,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111800,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111800,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111760,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111760,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111720,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111720,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111680,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111680,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111640,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111640,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111600,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bonanorigil",
-  "popularity": 111600,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bogislawa",
-  "popularity": 111560,
-  "meaning": "Boga chwała",
-  "category": "popularne"
-},
-
-{
-  "name": "Bogna",
-  "popularity": 111560,
-  "meaning": "Boża",
-  "category": "popularne"
-},
-
-{
-  "name": "Bogumila",
-  "popularity": 111520,
-  "meaning": "Boga miłość",
-  "category": "popularne"
-},
-
-{
-  "name": "Bogumila",
-  "popularity": 111520,
-  "meaning": "Boga miłość",
-  "category": "popularne"
-},
-
-{
-  "name": "Bogumila",
-  "popularity": 111480,
-  "meaning": "Boga miłość",
-  "category": "popularne"
-},
-
-{
-  "name": "Bogumila",
-  "popularity": 111480,
-  "meaning": "Boga miłość",
-  "category": "popularne"
-},
-
-{
-  "name": "Bogumila",
-  "popularity": 111440,
-  "meaning": "Boga miłość",
-  "category": "popularne"
-},
-
-{
-  "name": "Bogumila",
-  "popularity": 111440,
-  "meaning": "Boga miłość",
-  "category": "popularne"
-},
-
-{
-  "name": "Boguslaw",
-  "popularity": 111400,
-  "meaning": "Boga chwała",
-  "category": "popularne"
-},
-
-{
-  "name": "Boguslawa",
-  "popularity": 111400,
-  "meaning": "Boga chwała",
-  "category": "popularne"
-},
-
-{
-  "name": "Bogusław",
-  "popularity": 111360,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bogusława",
-  "popularity": 111360,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Boguslawina",
-  "popularity": 111320,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Boguslawka",
-  "popularity": 111320,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Boguslawka",
-  "popularity": 111280,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Boguslawna",
-  "popularity": 111280,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Boguslawna",
-  "popularity": 111240,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Boguslawna",
-  "popularity": 111240,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Boguslawna",
-  "popularity": 111200,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bogdana",
-  "popularity": 111200,
-  "meaning": "dana od Boga",
-  "category": "popularne"
-},
-
-{
-  "name": "Bogdania",
-  "popularity": 111160,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bogdanka",
-  "popularity": 111160,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bogdanna",
-  "popularity": 111120,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bogdanina",
-  "popularity": 111120,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bogdanida",
-  "popularity": 111080,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Bogdanina",
-  "popularity": 111080,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Czesława",
-  "popularity": 111040,
-  "meaning": "część chwały",
-  "category": "popularne"
-},
-
-{
-  "name": "Czesławina",
-  "popularity": 111040,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Czesławka",
-  "popularity": 111000,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Czesławna",
-  "popularity": 111000,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Czesławka",
-  "popularity": 110960,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Czesława",
-  "popularity": 110960,
-  "meaning": "część chwały",
-  "category": "popularne"
-},
-
-{
-  "name": "Czesławy",
-  "popularity": 110920,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Czesławyn",
-  "popularity": 110920,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Czesławyna",
-  "popularity": 110880,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Czesławyna",
-  "popularity": 110880,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Czesławyna",
-  "popularity": 110840,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Czesławyna",
-  "popularity": 110840,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Cezaria",
-  "popularity": 110800,
-  "meaning": "cesarz",
-  "category": "popularne"
-},
-
-{
-  "name": "Cezariana",
-  "popularity": 110800,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Cezariana",
-  "popularity": 110760,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Cezariana",
-  "popularity": 110760,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Cezariana",
-  "popularity": 110720,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Cezariana",
-  "popularity": 110720,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Cezariana",
-  "popularity": 110680,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Cezariana",
-  "popularity": 110680,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Cezariana",
-  "popularity": 110640,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Cezariana",
-  "popularity": 110640,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Cezariana",
-  "popularity": 110600,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Cezariana",
-  "popularity": 110600,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Celina",
-  "popularity": 110560,
-  "meaning": "niebieska",
-  "category": "popularne"
-},
-
-{
-  "name": "Celinna",
-  "popularity": 110560,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Celinella",
-  "popularity": 110520,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Celinetha",
-  "popularity": 110520,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Celinka",
-  "popularity": 110480,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Celinusia",
-  "popularity": 110480,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Celinuta",
-  "popularity": 110440,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Dalia",
-  "popularity": 110440,
-  "meaning": "kwiat",
-  "category": "popularne"
-},
-
-{
-  "name": "Dalila",
-  "popularity": 110400,
-  "meaning": "słaba",
-  "category": "popularne"
-},
-
-{
-  "name": "Dalina",
-  "popularity": 110400,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Dalinna",
-  "popularity": 110360,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Daliska",
-  "popularity": 110360,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Dalita",
-  "popularity": 110320,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Dalita",
-  "popularity": 110320,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Dalita",
-  "popularity": 110280,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Danuta",
-  "popularity": 110280,
-  "meaning": "dar",
-  "category": "popularne"
-},
-
-{
-  "name": "Danutka",
-  "popularity": 110240,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Danutcia",
-  "popularity": 110240,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Danutka",
-  "popularity": 110200,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Danutella",
-  "popularity": 110200,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Danutia",
-  "popularity": 110160,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Danutka",
-  "popularity": 110160,
-  "meaning": "tradycyjne polskie imię",
-  "category": "popularne"
-},
-
-{
-  "name": "Dobromila",
-  "popularity": 110120,
-  "meaning": "dobra miłość",
-  "category": "popularne"
-},
-
-{
-  "name": "Dobromila",
-  "popularity": 110120,
-  "meaning": "dobra miłość",
-  "category": "popularne"
-},
-
-{
-  "name": "Dobromila",
-  "popularity": 110080,
-  "meaning": "dobra miłość",
-  "category": "popularne"
-},
-
-{
-  "name": "Dobromila",
-  "popularity": 110080,
-  "meaning": "dobra miłość",
-  "category": "popularne"
-},
-
-{
-  "name": "Dobromila",
-  "popularity": 110040,
-  "meaning": "dobra miłość",
-  "category": "popularne"
-},
-
-{
-  "name": "Dobromila",
-  "popularity": 110040,
-  "meaning": "dobra miłość",
-  "category": "popularne"
-},
-
-]
+  {
+    name: "ZOFIA",
+    popularity: 220000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZUZANNA",
+    popularity: 219950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MAJA",
+    popularity: 219900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LAURA",
+    popularity: 219850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "HANNA",
+    popularity: 219800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JULIA",
+    popularity: 219750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "OLIWIA",
+    popularity: 219700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "POLA",
+    popularity: 219650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALICJA",
+    popularity: 219600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EMILIA",
+    popularity: 219550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARIA",
+    popularity: 219500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AMELIA",
+    popularity: 219450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANTONINA",
+    popularity: 219400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "HELENA",
+    popularity: 219350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LILIANA",
+    popularity: 219300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MICHALINA",
+    popularity: 219250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KLARA",
+    popularity: 219200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARCELINA",
+    popularity: 219150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "WIKTORIA",
+    popularity: 219100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ŁUCJA",
+    popularity: 219050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "IGA",
+    popularity: 219000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LENA",
+    popularity: 218950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ROZALIA",
+    popularity: 218900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "GABRIELA",
+    popularity: 218850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NELA",
+    popularity: 218800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KORNELIA",
+    popularity: 218750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LILIANNA",
+    popularity: 218700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALEKSANDRA",
+    popularity: 218650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AURELIA",
+    popularity: 218600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BLANKA",
+    popularity: 218550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "RÓŻA",
+    popularity: 218500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANIELA",
+    popularity: 218450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JAGODA",
+    popularity: 218400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANNA",
+    popularity: 218350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KAJA",
+    popularity: 218300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NADIA",
+    popularity: 218250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIA",
+    popularity: 218200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JAŚMINA",
+    popularity: 218150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANASTAZJA",
+    popularity: 218100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NATALIA",
+    popularity: 218050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SARA",
+    popularity: 218000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MILENA",
+    popularity: 217950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NINA",
+    popularity: 217900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "WERONIKA",
+    popularity: 217850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BARBARA",
+    popularity: 217800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MATYLDA",
+    popularity: 217750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LIWIA",
+    popularity: 217700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "WANDA",
+    popularity: 217650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NIKOLA",
+    popularity: 217600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELIZA",
+    popularity: 217550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZOJA",
+    popularity: 217500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ADRIANNA",
+    popularity: 217450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MELANIA",
+    popularity: 217400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NEL",
+    popularity: 217350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARIANNA",
+    popularity: 217300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "GAJA",
+    popularity: 217250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KAROLINA",
+    popularity: 217200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "APOLONIA",
+    popularity: 217150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SOFIA",
+    popularity: 217100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AGATA",
+    popularity: 217050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARTYNA",
+    popularity: 217000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DIANA",
+    popularity: 216950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LIDIA",
+    popularity: 216900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MAGDALENA",
+    popularity: 216850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BIANKA",
+    popularity: 216800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "STEFANIA",
+    popularity: 216750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FELICJA",
+    popularity: 216700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KINGA",
+    popularity: 216650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EWA",
+    popularity: 216600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "IZABELA",
+    popularity: 216550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "URSZULA",
+    popularity: 216500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KALINA",
+    popularity: 216450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "IDA",
+    popularity: 216400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MALWINA",
+    popularity: 216350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JAGNA",
+    popularity: 216300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JOANNA",
+    popularity: 216250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EMMA",
+    popularity: 216200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DOMINIKA",
+    popularity: 216150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JADWIGA",
+    popularity: 216100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LUIZA",
+    popularity: 216050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MAŁGORZATA",
+    popularity: 216000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ADELINA",
+    popularity: 215950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "RITA",
+    popularity: 215900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LILIA",
+    popularity: 215850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SOFIIA",
+    popularity: 215800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARTA",
+    popularity: 215750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "OLIVIA",
+    popularity: 215700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DARIA",
+    popularity: 215650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MILANA",
+    popularity: 215600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "PAULINA",
+    popularity: 215550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELENA",
+    popularity: 215500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KATARZYNA",
+    popularity: 215450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ADA",
+    popularity: 215400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CELINA",
+    popularity: 215350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ADELA",
+    popularity: 215300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EMILIIA",
+    popularity: 215250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KAMILA",
+    popularity: 215200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LARA",
+    popularity: 215150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AURORA",
+    popularity: 215100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NOEMI",
+    popularity: 215050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KLAUDIA",
+    popularity: 215000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LILA",
+    popularity: 214950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DOROTA",
+    popularity: 214900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LEA",
+    popularity: 214850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JANINA",
+    popularity: 214800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EVA",
+    popularity: 214750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "GLORIA",
+    popularity: 214700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FLORENTYNA",
+    popularity: 214650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALISA",
+    popularity: 214600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FRANCISZKA",
+    popularity: 214550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZLATA",
+    popularity: 214500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "PATRYCJA",
+    popularity: 214450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALINA",
+    popularity: 214400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SOLOMIIA",
+    popularity: 214350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "OLGA",
+    popularity: 214300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MELISA",
+    popularity: 214250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ESTERA",
+    popularity: 214200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MILA",
+    popularity: 214150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELŻBIETA",
+    popularity: 214100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "IRENA",
+    popularity: 214050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LIVIA",
+    popularity: 214000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MONIKA",
+    popularity: 213950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARIKA",
+    popularity: 213900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FAUSTYNA",
+    popularity: 213850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MAYA",
+    popularity: 213800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "YEVA",
+    popularity: 213750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KRYSTYNA",
+    popularity: 213700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "POLINA",
+    popularity: 213650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TOLA",
+    popularity: 213600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIIA",
+    popularity: 213550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARLENA",
+    popularity: 213500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TERESA",
+    popularity: 213450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SANDRA",
+    popularity: 213400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CARMEN",
+    popularity: 213350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NIKOL",
+    popularity: 213300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JÓZEFINA",
+    popularity: 213250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KIRA",
+    popularity: 213200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AGNIESZKA",
+    popularity: 213150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JUSTYNA",
+    popularity: 213100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LUCYNA",
+    popularity: 213050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SOPHIA",
+    popularity: 213000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "INGA",
+    popularity: 212950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EMILY",
+    popularity: 212900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "OTYLIA",
+    popularity: 212850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AMANDA",
+    popularity: 212800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DAGMARA",
+    popularity: 212750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "OLIVIIA",
+    popularity: 212700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EWELINA",
+    popularity: 212650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VIKTORIIA",
+    popularity: 212600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VICTORIA",
+    popularity: 212550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LUNA",
+    popularity: 212500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MICHELLE",
+    popularity: 212450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VANESSA",
+    popularity: 212400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EVELINA",
+    popularity: 212350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KONSTANCJA",
+    popularity: 212300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NICOLE",
+    popularity: 212250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "STELLA",
+    popularity: 212200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VERONIKA",
+    popularity: 212150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIRA",
+    popularity: 212100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JULIANNA",
+    popularity: 212050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ROKSANA",
+    popularity: 212000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ARIANA",
+    popularity: 211950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CECYLIA",
+    popularity: 211900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NAOMI",
+    popularity: 211850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ARIA",
+    popularity: 211800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DALIA",
+    popularity: 211750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SONIA",
+    popularity: 211700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANITA",
+    popularity: 211650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ARINA",
+    popularity: 211600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JUDYTA",
+    popularity: 211550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "INEZ",
+    popularity: 211500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JULITA",
+    popularity: 211450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARIIA",
+    popularity: 211400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "OKTAWIA",
+    popularity: 211350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MALINA",
+    popularity: 211300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "INES",
+    popularity: 211250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LILY",
+    popularity: 211200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SABINA",
+    popularity: 211150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LEONIA",
+    popularity: 211100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KLEMENTYNA",
+    popularity: 211050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SOPHIE",
+    popularity: 211000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ADRIANA",
+    popularity: 210950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "IDALIA",
+    popularity: 210900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DANUTA",
+    popularity: 210850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "IZABELLA",
+    popularity: 210800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "OFELIA",
+    popularity: 210750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LIA",
+    popularity: 210700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LETYCJA",
+    popularity: 210650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NELIA",
+    popularity: 210600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VIKTORIA",
+    popularity: 210550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NOELIA",
+    popularity: 210500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZOYA",
+    popularity: 210450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ADEL",
+    popularity: 210400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JOWITA",
+    popularity: 210350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LEOKADIA",
+    popularity: 210300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZOE",
+    popularity: 210250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CHARLOTTE",
+    popularity: 210200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MELISSA",
+    popularity: 210150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIRIAM",
+    popularity: 210100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "INKA",
+    popularity: 210050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KARINA",
+    popularity: 210000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "OLIMPIA",
+    popularity: 209950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AMINA",
+    popularity: 209900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANGELINA",
+    popularity: 209850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JANA",
+    popularity: 209800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "OLEKSANDRA",
+    popularity: 209750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ROMA",
+    popularity: 209700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VARVARA",
+    popularity: 209650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SOFIJA",
+    popularity: 209600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "WALERIA",
+    popularity: 209550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANTONIA",
+    popularity: 209500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELINA",
+    popularity: 209450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LAYLA",
+    popularity: 209400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARCJANNA",
+    popularity: 209350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "HIACYNTA",
+    popularity: 209300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MYROSLAVA",
+    popularity: 209250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NADZIEJA",
+    popularity: 209200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AMELIIA",
+    popularity: 209150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "HONORATA",
+    popularity: 209100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LILI",
+    popularity: 209050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELIANA",
+    popularity: 209000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NICOLA",
+    popularity: 208950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LAILA",
+    popularity: 208900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SYLWIA",
+    popularity: 208850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JASMINA",
+    popularity: 208800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LARYSA",
+    popularity: 208750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LEYLA",
+    popularity: 208700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELEONORA",
+    popularity: 208650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANASTASIIA",
+    popularity: 208600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BEATA",
+    popularity: 208550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DOBRAWA",
+    popularity: 208500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FLORA",
+    popularity: 208450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MISHEL",
+    popularity: 208400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VALERIA",
+    popularity: 208350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LILLY",
+    popularity: 208300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARCELA",
+    popularity: 208250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SELENA",
+    popularity: 208200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KSENIA",
+    popularity: 208150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIROSLAVA",
+    popularity: 208100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "OLA",
+    popularity: 208050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "GAIA",
+    popularity: 208000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KATERYNA",
+    popularity: 207950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ULIANA",
+    popularity: 207900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CLARA",
+    popularity: 207850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "GABRIELLA",
+    popularity: 207800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BIANCA",
+    popularity: 207750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "PAULA",
+    popularity: 207700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANASTASIA",
+    popularity: 207650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ARIANNA",
+    popularity: 207600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DANIELA",
+    popularity: 207550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LEILA",
+    popularity: 207500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIJA",
+    popularity: 207450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SOLOMIA",
+    popularity: 207400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANETA",
+    popularity: 207350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DARYNA",
+    popularity: 207300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "INA",
+    popularity: 207250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LIANA",
+    popularity: 207200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARINA",
+    popularity: 207150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LUKRECJA",
+    popularity: 207100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MAGDA",
+    popularity: 207050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NATASZA",
+    popularity: 207000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NELLY",
+    popularity: 206950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NIKA",
+    popularity: 206900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VERA",
+    popularity: 206850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "YANA",
+    popularity: 206800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANGELIKA",
+    popularity: 206750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANHELINA",
+    popularity: 206700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FREYA",
+    popularity: 206650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "GRETA",
+    popularity: 206600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "HALINA",
+    popularity: 206550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "HANA",
+    popularity: 206500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KIARA",
+    popularity: 206450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIRELLA",
+    popularity: 206400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIROSŁAWA",
+    popularity: 206350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VIVIENNE",
+    popularity: 206300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "WIOLETTA",
+    popularity: 206250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AMIRA",
+    popularity: 206200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BOGUMIŁA",
+    popularity: 206150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CHLOE",
+    popularity: 206100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ILONA",
+    popularity: 206050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LILLA",
+    popularity: 206000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARIETTA",
+    popularity: 205950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NASTIA",
+    popularity: 205900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TAMARA",
+    popularity: 205850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "YELYZAVETA",
+    popularity: 205800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "YULIIA",
+    popularity: 205750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ADELE",
+    popularity: 205700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALICIA",
+    popularity: 205650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ASTRID",
+    popularity: 205600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BELLA",
+    popularity: 205550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BOŻENA",
+    popularity: 205500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "HANNAH",
+    popularity: 205450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MELANIIA",
+    popularity: 205400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIYA",
+    popularity: 205350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "STANISŁAWA",
+    popularity: 205300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VALERIIA",
+    popularity: 205250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VLADYSLAVA",
+    popularity: 205200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ABIGAIL",
+    popularity: 205150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ADELIA",
+    popularity: 205100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALIA",
+    popularity: 205050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELISA",
+    popularity: 205000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELIZABETH",
+    popularity: 204950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ERIKA",
+    popularity: 204900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "HALSZKA",
+    popularity: 204850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KAIA",
+    popularity: 204800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LISA",
+    popularity: 204750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SAMANTA",
+    popularity: 204700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALEXANDRA",
+    popularity: 204650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALMA",
+    popularity: 204600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BOGNA",
+    popularity: 204550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELLA",
+    popularity: 204500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EMILI",
+    popularity: 204450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JASMIN",
+    popularity: 204400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JOLANTA",
+    popularity: 204350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KHRYSTYNA",
+    popularity: 204300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LUCIA",
+    popularity: 204250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARITA",
+    popularity: 204200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NELL",
+    popularity: 204150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ROSALIA",
+    popularity: 204100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "WANESSA",
+    popularity: 204050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AFINA",
+    popularity: 204000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALICE",
+    popularity: 203950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EDYTA",
+    popularity: 203900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FLORIANNA",
+    popularity: 203850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "GRACJA",
+    popularity: 203800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ISABELLA",
+    popularity: 203750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JASMINE",
+    popularity: 203700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LEIA",
+    popularity: 203650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MAIA",
+    popularity: 203600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARYAM",
+    popularity: 203550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MATILDA",
+    popularity: 203500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SABRINA",
+    popularity: 203450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SOLOMIYA",
+    popularity: 203400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VERONICA",
+    popularity: 203350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AYLA",
+    popularity: 203300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BALBINA",
+    popularity: 203250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "IRMINA",
+    popularity: 203200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LINA",
+    popularity: 203150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LIYA",
+    popularity: 203100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SARAH",
+    popularity: 203050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "STEFANIIA",
+    popularity: 203000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "YUSTYNA",
+    popularity: 202950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANDŻELIKA",
+    popularity: 202900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KARMEN",
+    popularity: 202850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARZENA",
+    popularity: 202800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MELODY",
+    popularity: 202750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "RENATA",
+    popularity: 202700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TEIA",
+    popularity: 202650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VALENTINA",
+    popularity: 202600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VIOLETTA",
+    popularity: 202550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VIRA",
+    popularity: 202500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AMAYA",
+    popularity: 202450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AYA",
+    popularity: 202400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CELESTYNA",
+    popularity: 202350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DARIIA",
+    popularity: 202300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DOBROSŁAWA",
+    popularity: 202250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FLORENCJA",
+    popularity: 202200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "HANIA",
+    popularity: 202150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LIIA",
+    popularity: 202100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LUCY",
+    popularity: 202050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARHARYTA",
+    popularity: 202000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIRABELLA",
+    popularity: 201950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ORIANA",
+    popularity: 201900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ROSA",
+    popularity: 201850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TEONA",
+    popularity: 201800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TULIA",
+    popularity: 201750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "YASMINA",
+    popularity: 201700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALIYA",
+    popularity: 201650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ARIELLA",
+    popularity: 201600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BOHDANA",
+    popularity: 201550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CIRILLA",
+    popularity: 201500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ESTER",
+    popularity: 201450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FILOMENA",
+    popularity: 201400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KAYLA",
+    popularity: 201350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MAIIA",
+    popularity: 201300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARIAM",
+    popularity: 201250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NADIIA",
+    popularity: 201200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ROSE",
+    popularity: 201150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VIVIANA",
+    popularity: 201100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VIVIEN",
+    popularity: 201050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AIDA",
+    popularity: 201000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANA",
+    popularity: 200950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ARYA",
+    popularity: 200900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AYLIN",
+    popularity: 200850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DAGNA",
+    popularity: 200800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELIZAVETA",
+    popularity: 200750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FLAWIA",
+    popularity: 200700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JESSICA",
+    popularity: 200650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JOSEPHINE",
+    popularity: 200600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LANA",
+    popularity: 200550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARGARITA",
+    popularity: 200500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SIMONA",
+    popularity: 200450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "YEVHENIIA",
+    popularity: 200400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZOSIA",
+    popularity: 200350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZUZA",
+    popularity: 200300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ADELAJDA",
+    popularity: 200250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AISHA",
+    popularity: 200200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ARIADNA",
+    popularity: 200150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BIBIANA",
+    popularity: 200100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CATALEYA",
+    popularity: 200050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DANA",
+    popularity: 200000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DOBROMIŁA",
+    popularity: 199950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELLIE",
+    popularity: 199900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELWIRA",
+    popularity: 199850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FREJA",
+    popularity: 199800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "GRAŻYNA",
+    popularity: 199750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "IRYNA",
+    popularity: 199700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "IVANNA",
+    popularity: 199650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KAMELIA",
+    popularity: 199600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KHÁNH VY",
+    popularity: 199550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KORA",
+    popularity: 199500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LETICIA",
+    popularity: 199450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LIJA",
+    popularity: 199400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LILIIA",
+    popularity: 199350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LIZA",
+    popularity: 199300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LUDWIKA",
+    popularity: 199250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARYLA",
+    popularity: 199200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIRELA",
+    popularity: 199150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NICOL",
+    popularity: 199100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "PIA",
+    popularity: 199050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "REGINA",
+    popularity: 199000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ROSALIE",
+    popularity: 198950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SELINA",
+    popularity: 198900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SOFIYA",
+    popularity: 198850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SOFÍA",
+    popularity: 198800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "YARYNA",
+    popularity: 198750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALYA",
+    popularity: 198700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AMALIA",
+    popularity: 198650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AMARA",
+    popularity: 198600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ARIELA",
+    popularity: 198550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ARLETA",
+    popularity: 198500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BLANCA",
+    popularity: 198450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BOGUSŁAWA",
+    popularity: 198400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DEBORA",
+    popularity: 198350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FATIMA",
+    popularity: 198300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "GRACE",
+    popularity: 198250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ILIANA",
+    popularity: 198200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "INAYA",
+    popularity: 198150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "IVY",
+    popularity: 198100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KAMILLA",
+    popularity: 198050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KATALEJA",
+    popularity: 198000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KAYA",
+    popularity: 197950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KRISTINA",
+    popularity: 197900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MANUELA",
+    popularity: 197850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MELA",
+    popularity: 197800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MERYEM",
+    popularity: 197750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NALA",
+    popularity: 197700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NELLA",
+    popularity: 197650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NIKOLETTA",
+    popularity: 197600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NILA",
+    popularity: 197550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "PAMELA",
+    popularity: 197500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "REBEKA",
+    popularity: 197450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SALMA",
+    popularity: 197400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SAMIRA",
+    popularity: 197350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SYNTIA",
+    popularity: 197300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TATIANA",
+    popularity: 197250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TINA",
+    popularity: 197200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TOSIA",
+    popularity: 197150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "WALENTYNA",
+    popularity: 197100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ŻANETA",
+    popularity: 197050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALBINA",
+    popularity: 197000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AMBER",
+    popularity: 196950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ATHENA",
+    popularity: 196900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AURA",
+    popularity: 196850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AYSEL",
+    popularity: 196800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DAJANA",
+    popularity: 196750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELVIRA",
+    popularity: 196700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EMANUELA",
+    popularity: 196650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FRIDA",
+    popularity: 196600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "IWONA",
+    popularity: 196550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KSENIIA",
+    popularity: 196500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LUISA",
+    popularity: 196450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MAGNOLIA",
+    popularity: 196400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MALIKA",
+    popularity: 196350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIKA",
+    popularity: 196300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIŁOSŁAWA",
+    popularity: 196250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NASTAZJA",
+    popularity: 196200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NATALIE",
+    popularity: 196150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NORA",
+    popularity: 196100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ODETTA",
+    popularity: 196050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "OLENA",
+    popularity: 196000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "OTOLIA",
+    popularity: 195950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "RACHELA",
+    popularity: 195900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "RUTA",
+    popularity: 195850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TAISIIA",
+    popularity: 195800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TEJA",
+    popularity: 195750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TEREZA",
+    popularity: 195700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TIANA",
+    popularity: 195650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ULA",
+    popularity: 195600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VITALINA",
+    popularity: 195550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "WIWIANA",
+    popularity: 195500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "YAROSLAVA",
+    popularity: 195450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "YESENIIA",
+    popularity: 195400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZAHRA",
+    popularity: 195350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZARA",
+    popularity: 195300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZORIANA",
+    popularity: 195250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZYTA",
+    popularity: 195200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ADELIIA",
+    popularity: 195150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ADELINE",
+    popularity: 195100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALAYA",
+    popularity: 195050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALORA",
+    popularity: 195000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AMY",
+    popularity: 194950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANABELLA",
+    popularity: 194900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANATOLA",
+    popularity: 194850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANAYA",
+    popularity: 194800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANIKA",
+    popularity: 194750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AUREA",
+    popularity: 194700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AZALIA",
+    popularity: 194650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BERNADETA",
+    popularity: 194600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BERNADETTA",
+    popularity: 194550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BRYGIDA",
+    popularity: 194500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CAMILLA",
+    popularity: 194450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CARLA",
+    popularity: 194400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CECILIA",
+    popularity: 194350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CELINE",
+    popularity: 194300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CHIARA",
+    popularity: 194250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DAIANA",
+    popularity: 194200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DARINA",
+    popularity: 194150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DĄBRÓWKA",
+    popularity: 194100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DOBROCHNA",
+    popularity: 194050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELA",
+    popularity: 194000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELIA",
+    popularity: 193950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELISABETH",
+    popularity: 193900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELODIE",
+    popularity: 193850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELOISE",
+    popularity: 193800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EMI",
+    popularity: 193750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ERYKA",
+    popularity: 193700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EULALIA",
+    popularity: 193650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FELIKSA",
+    popularity: 193600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FLORENCE",
+    popularity: 193550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FRANCESCA",
+    popularity: 193500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FRANKA",
+    popularity: 193450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "HOLLY",
+    popularity: 193400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "IGNACJA",
+    popularity: 193350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ILARIIA",
+    popularity: 193300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "IVANKA",
+    popularity: 193250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JANKA",
+    popularity: 193200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JAROSŁAWA",
+    popularity: 193150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JENNIFER",
+    popularity: 193100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JULIANA",
+    popularity: 193050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KAMA",
+    popularity: 193000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KARLA",
+    popularity: 192950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LEJLA",
+    popularity: 192900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LEONA",
+    popularity: 192850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LEONIE",
+    popularity: 192800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LEONTYNA",
+    popularity: 192750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LEYA",
+    popularity: 192700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LIANNA",
+    popularity: 192650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LILITH",
+    popularity: 192600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LILLI",
+    popularity: 192550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LILLIANA",
+    popularity: 192500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LINDA",
+    popularity: 192450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LUCJA",
+    popularity: 192400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LUDMIŁA",
+    popularity: 192350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MALIA",
+    popularity: 192300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARGARYTA",
+    popularity: 192250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MICHAELA",
+    popularity: 192200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MILLA",
+    popularity: 192150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIŁA",
+    popularity: 192100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIRANDA",
+    popularity: 192050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NELI",
+    popularity: 192000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NIKOLE",
+    popularity: 191950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "OKSANA",
+    popularity: 191900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "OLESIA",
+    popularity: 191850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "PALINA",
+    popularity: 191800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "PELAGIA",
+    popularity: 191750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ROKSOLANA",
+    popularity: 191700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ROZANNA",
+    popularity: 191650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SCARLETT",
+    popularity: 191600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SELIN",
+    popularity: 191550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SIENNA",
+    popularity: 191500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SOFI",
+    popularity: 191450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SOFIE",
+    popularity: 191400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SOLOMIJA",
+    popularity: 191350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SUZANNE",
+    popularity: 191300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TAISIA",
+    popularity: 191250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TEYA",
+    popularity: 191200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VASYLYNA",
+    popularity: 191150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "YASMINE",
+    popularity: 191100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "YELIZAVETA",
+    popularity: 191050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZOË",
+    popularity: 191000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ŻAKLINA",
+    popularity: 190950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AILIN",
+    popularity: 190900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALANA",
+    popularity: 190850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALARA",
+    popularity: 190800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALESSIA",
+    popularity: 190750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALEYNA",
+    popularity: 190700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALISIIA",
+    popularity: 190650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALIYAH",
+    popularity: 190600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AMAIA",
+    popularity: 190550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AMALIIA",
+    popularity: 190500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AMELIE",
+    popularity: 190450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AMÉLIE",
+    popularity: 190400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AN NHIEN",
+    popularity: 190350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANABEL",
+    popularity: 190300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANATOLIA",
+    popularity: 190250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANELIIA",
+    popularity: 190200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANGELA",
+    popularity: 190150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANISA",
+    popularity: 190100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANNABELLE",
+    popularity: 190050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANNE",
+    popularity: 190000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ARLETTA",
+    popularity: 189950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ARMINA",
+    popularity: 189900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ASENA",
+    popularity: 189850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ATENA",
+    popularity: 189800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AVA",
+    popularity: 189750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AVRORA",
+    popularity: 189700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BERENIKA",
+    popularity: 189650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BIBIANNA",
+    popularity: 189600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BOGDANA",
+    popularity: 189550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BRONISŁAWA",
+    popularity: 189500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CAROLINE",
+    popularity: 189450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CORNELIA",
+    popularity: 189400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CYNTHIA",
+    popularity: 189350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CYNTIA",
+    popularity: 189300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DAISY",
+    popularity: 189250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DAYANA",
+    popularity: 189200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DELIA",
+    popularity: 189150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DENISA",
+    popularity: 189100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EKATERINA",
+    popularity: 189050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELIS",
+    popularity: 189000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELIZABET",
+    popularity: 188950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELLEN",
+    popularity: 188900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELLENA",
+    popularity: 188850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EMA",
+    popularity: 188800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EVANGELINA",
+    popularity: 188750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FELICIA",
+    popularity: 188700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FLORIA",
+    popularity: 188650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "GRACJANA",
+    popularity: 188600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "HELEN",
+    popularity: 188550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "INESS",
+    popularity: 188500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ISABELLE",
+    popularity: 188450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ISLA",
+    popularity: 188400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JAGA",
+    popularity: 188350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KARMELIA",
+    popularity: 188300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KLAUDYNA",
+    popularity: 188250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KLEOPATRA",
+    popularity: 188200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LARISSA",
+    popularity: 188150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LEAH",
+    popularity: 188100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LETTY",
+    popularity: 188050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LILIAN",
+    popularity: 188000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LILIYA",
+    popularity: 187950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LOUISA",
+    popularity: 187900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MAEVE",
+    popularity: 187850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MAJKA",
+    popularity: 187800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARIANA",
+    popularity: 187750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARIE",
+    popularity: 187700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARIJA",
+    popularity: 187650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARIYA",
+    popularity: 187600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARYANA",
+    popularity: 187550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARYSIA",
+    popularity: 187500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MELANIE",
+    popularity: 187450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MELODIA",
+    popularity: 187400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MICHEL",
+    popularity: 187350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIKAELA",
+    popularity: 187300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MILANIA",
+    popularity: 187250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MILEY",
+    popularity: 187200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIŁOCHNA",
+    popularity: 187150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MINH ANH",
+    popularity: 187100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MINH CHÂU",
+    popularity: 187050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIRABELL",
+    popularity: 187000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIROSLAWA",
+    popularity: 186950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NAYLA",
+    popularity: 186900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "OLHA",
+    popularity: 186850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "POLIANA",
+    popularity: 186800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "RACHEL",
+    popularity: 186750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "REBECA",
+    popularity: 186700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "REBECCA",
+    popularity: 186650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "RIVA",
+    popularity: 186600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "RONJA",
+    popularity: 186550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "RUBY",
+    popularity: 186500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "RUSLANA",
+    popularity: 186450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "RUT",
+    popularity: 186400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SALOME",
+    popularity: 186350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SALOMEA",
+    popularity: 186300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SAMARA",
+    popularity: 186250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SENA",
+    popularity: 186200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SERAFINA",
+    popularity: 186150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SORAYA",
+    popularity: 186100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "STEPHANIE",
+    popularity: 186050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TAIA",
+    popularity: 186000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TALIA",
+    popularity: 185950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TEKLA",
+    popularity: 185900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TELIMENA",
+    popularity: 185850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TESSA",
+    popularity: 185800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "THEA",
+    popularity: 185750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TIFFANY",
+    popularity: 185700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TOMIŁA",
+    popularity: 185650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ULYANA",
+    popularity: 185600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VALENTYNA",
+    popularity: 185550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VALERIYA",
+    popularity: 185500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VIOLET",
+    popularity: 185450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VIVIAN",
+    popularity: 185400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VLADA",
+    popularity: 185350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VLADISLAVA",
+    popularity: 185300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "WIKTORIIA",
+    popularity: 185250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "YASEMIN",
+    popularity: 185200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "YESENIA",
+    popularity: 185150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZARINA",
+    popularity: 185100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZELIA",
+    popularity: 185050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZEYNEP",
+    popularity: 185000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZLATOSLAVA",
+    popularity: 184950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZOEY",
+    popularity: 184900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZURI",
+    popularity: 184850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ŻYWIA",
+    popularity: 184800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AARVI",
+    popularity: 184750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AFRODYTA",
+    popularity: 184700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AGATHA",
+    popularity: 184650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AGNES",
+    popularity: 184600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AILEEN",
+    popularity: 184550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AISZA",
+    popularity: 184500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALAIA",
+    popularity: 184450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALENA",
+    popularity: 184400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALESIA",
+    popularity: 184350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALEXIA",
+    popularity: 184300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALISHA",
+    popularity: 184250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALISIA",
+    popularity: 184200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ALISSA",
+    popularity: 184150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AMARACHI",
+    popularity: 184100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AMELI",
+    popularity: 184050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AN VY",
+    popularity: 184000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANAIS",
+    popularity: 183950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANDREEA",
+    popularity: 183900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANNIE",
+    popularity: 183850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANVI",
+    popularity: 183800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ANYA",
+    popularity: 183750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "APOLINA",
+    popularity: 183700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "APOLLONIA",
+    popularity: 183650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ARIIA",
+    popularity: 183600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ARWENA",
+    popularity: 183550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ARYNA",
+    popularity: 183500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ASIYA",
+    popularity: 183450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ASYA",
+    popularity: 183400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ATIYA",
+    popularity: 183350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AYAH",
+    popularity: 183300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "AYRA",
+    popularity: 183250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BEATRICE",
+    popularity: 183200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "BOZHENA",
+    popularity: 183150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CAMELLIA",
+    popularity: 183100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CAMILA",
+    popularity: 183050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CAMILLE",
+    popularity: 183000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CARMELA",
+    popularity: 182950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CAROLINA",
+    popularity: 182900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CATHERINE",
+    popularity: 182850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CÉLINE",
+    popularity: 182800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CHIZARAM",
+    popularity: 182750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CHRISTINA",
+    popularity: 182700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CLAIRE",
+    popularity: 182650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CORA",
+    popularity: 182600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "CRYSTAL",
+    popularity: 182550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DALIANA",
+    popularity: 182500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DAMIRA",
+    popularity: 182450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DAPHNE",
+    popularity: 182400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DARYA",
+    popularity: 182350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DELFINA",
+    popularity: 182300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DILARA",
+    popularity: 182250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DOMINICA",
+    popularity: 182200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DUA",
+    popularity: 182150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "DZHANSU",
+    popularity: 182100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELEANOR",
+    popularity: 182050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELENI",
+    popularity: 182000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELIANNA",
+    popularity: 181950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELIF",
+    popularity: 181900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELIN",
+    popularity: 181850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELLI",
+    popularity: 181800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELMIRA",
+    popularity: 181750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELSA",
+    popularity: 181700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ELZA",
+    popularity: 181650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EMILIE",
+    popularity: 181600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EMILIJA",
+    popularity: 181550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ESMA",
+    popularity: 181500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ESMERALDA",
+    popularity: 181450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ESTELLA",
+    popularity: 181400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EUFEMIA",
+    popularity: 181350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "EUFROZYNA",
+    popularity: 181300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FAITH",
+    popularity: 181250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FIORA",
+    popularity: 181200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FLAVIA",
+    popularity: 181150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "FLORENTINA",
+    popularity: 181100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "GAÏA",
+    popularity: 181050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "GABI",
+    popularity: 181000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "GEORGINA",
+    popularity: 180950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "HÀ MY",
+    popularity: 180900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "HALIMA",
+    popularity: 180850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "HAYAT",
+    popularity: 180800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "HENRYKA",
+    popularity: 180750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "HILDA",
+    popularity: 180700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "HOPE",
+    popularity: 180650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "IOANNA",
+    popularity: 180600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "IRIS",
+    popularity: 180550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ISABELA",
+    popularity: 180500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ISHANI",
+    popularity: 180450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "IZA",
+    popularity: 180400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JOSEFINE",
+    popularity: 180350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JULIE",
+    popularity: 180300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "JULIETTA",
+    popularity: 180250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KAJLA",
+    popularity: 180200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KARMENA",
+    popularity: 180150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KATALEYA",
+    popularity: 180100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KATALINA",
+    popularity: 180050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KATIA",
+    popularity: 180000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KEHLANI",
+    popularity: 179950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KESJA",
+    popularity: 179900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KEYLA",
+    popularity: 179850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KHANH VY",
+    popularity: 179800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KLÁRA",
+    popularity: 179750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KSYMENA",
+    popularity: 179700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "KYLIE",
+    popularity: 179650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LALE",
+    popularity: 179600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LARISA",
+    popularity: 179550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LATIKA",
+    popularity: 179500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LATOJA",
+    popularity: 179450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LAURENCJA",
+    popularity: 179400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LAVINIA",
+    popularity: 179350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LAYAN",
+    popularity: 179300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LELIA",
+    popularity: 179250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LENKA",
+    popularity: 179200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LEONORA",
+    popularity: 179150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LERA",
+    popularity: 179100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LILIEN",
+    popularity: 179050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LILIT",
+    popularity: 179000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LILOU",
+    popularity: 178950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LILU",
+    popularity: 178900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LIVIANA",
+    popularity: 178850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LIVIIA",
+    popularity: 178800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LIYANA",
+    popularity: 178750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LIZI",
+    popularity: 178700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LÍA",
+    popularity: 178650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LOUISE",
+    popularity: 178600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LYANNA",
+    popularity: 178550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LYDIA",
+    popularity: 178500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "LYLA",
+    popularity: 178450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MADLEN",
+    popularity: 178400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MAHIRA",
+    popularity: 178350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARA",
+    popularity: 178300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARGO",
+    popularity: 178250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARIAMI",
+    popularity: 178200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARIOLA",
+    popularity: 178150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MARTINA",
+    popularity: 178100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MASAL",
+    popularity: 178050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MATHILDA",
+    popularity: 178000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MAURA",
+    popularity: 177950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MAXINE",
+    popularity: 177900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MAYAH",
+    popularity: 177850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MAYRA",
+    popularity: 177800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MAYSA",
+    popularity: 177750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MEDINE",
+    popularity: 177700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MEGAN",
+    popularity: 177650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MELİSA",
+    popularity: 177600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MILIANA",
+    popularity: 177550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MILLIE",
+    popularity: 177500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIŁKA",
+    popularity: 177450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIRABEL",
+    popularity: 177400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIRAL",
+    popularity: 177350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIRASLAVA",
+    popularity: 177300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIRAY",
+    popularity: 177250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MIRHA",
+    popularity: 177200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MISZEL",
+    popularity: 177150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MOLLY",
+    popularity: 177100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MONICA",
+    popularity: 177050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MYLA",
+    popularity: 177000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "MYROSLAWA",
+    popularity: 176950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NAIA",
+    popularity: 176900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NAILA",
+    popularity: 176850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NANA",
+    popularity: 176800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NATALIIA",
+    popularity: 176750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NATASHA",
+    popularity: 176700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NAYA",
+    popularity: 176650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NEFELI",
+    popularity: 176600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NELLIE",
+    popularity: 176550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NGOC MINH CHAU",
+    popularity: 176500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NIA",
+    popularity: 176450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NICOLETTA",
+    popularity: 176400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NOA",
+    popularity: 176350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NOLA",
+    popularity: 176300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "NOUR",
+    popularity: 176250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ODA",
+    popularity: 176200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ODETTE",
+    popularity: 176150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "OLIVIYA",
+    popularity: 176100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "OLIWIIA",
+    popularity: 176050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "OLUWATOYIN",
+    popularity: 176000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "OLYMPIA",
+    popularity: 175950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ORYSIA",
+    popularity: 175900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "PENELOPE",
+    popularity: 175850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "PETRA",
+    popularity: 175800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "PHƯƠNG NHI",
+    popularity: 175750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "POLIANNA",
+    popularity: 175700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "RADA",
+    popularity: 175650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "RAISA",
+    popularity: 175600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "RAMONA",
+    popularity: 175550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "RANIA",
+    popularity: 175500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "RAYA",
+    popularity: 175450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "RAYANA",
+    popularity: 175400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "REHMAT",
+    popularity: 175350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ROSEMARIE",
+    popularity: 175300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ROSIE",
+    popularity: 175250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "RUTH",
+    popularity: 175200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SAFIYA",
+    popularity: 175150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SAGE",
+    popularity: 175100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SAIDA",
+    popularity: 175050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SALOMÉ",
+    popularity: 175000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SAMANTHA",
+    popularity: 174950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SANTANA",
+    popularity: 174900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SANTIA",
+    popularity: 174850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SANVI",
+    popularity: 174800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SARANG",
+    popularity: 174750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SERAFIMA",
+    popularity: 174700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SEYRAN",
+    popularity: 174650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SIA",
+    popularity: 174600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SILA",
+    popularity: 174550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SILVIA",
+    popularity: 174500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SIMELA",
+    popularity: 174450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SŁAWA",
+    popularity: 174400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SULAMITA",
+    popularity: 174350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SUMAYA",
+    popularity: 174300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SUSANNA",
+    popularity: 174250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "SUZAN",
+    popularity: 174200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TAISIYA",
+    popularity: 174150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TALA",
+    popularity: 174100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "TEODORA",
+    popularity: 174050,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ULJANA",
+    popularity: 174000,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "UMAY",
+    popularity: 173950,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "USTYNA",
+    popularity: 173900,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VALENCIA",
+    popularity: 173850,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VALERIE",
+    popularity: 173800,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VANESA",
+    popularity: 173750,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VASILISA",
+    popularity: 173700,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VASYLISA",
+    popularity: 173650,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VIOLETA",
+    popularity: 173600,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "VITA",
+    popularity: 173550,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "WANESA",
+    popularity: 173500,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "WIERA",
+    popularity: 173450,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "WINCENTYNA",
+    popularity: 173400,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "WISENNA",
+    popularity: 173350,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "YASMIN",
+    popularity: 173300,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "YEVHENIYA",
+    popularity: 173250,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZARIA",
+    popularity: 173200,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZELDA",
+    popularity: 173150,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+  {
+    name: "ZUNAIRAH",
+    popularity: 173100,
+    meaning: "Tradycyjne imię o polskich i europejskich korzeniach.",
+    category: "popularne",
+  },
+];
