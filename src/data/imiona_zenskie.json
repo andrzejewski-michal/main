@@ -1,0 +1,404 @@
+[
+    {
+      "name": "Ada",
+      "popularity": 100300,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Adamina",
+      "popularity": 99900,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "rzadkie"
+    },
+    {
+      "name": "Adela",
+      "popularity": 68950,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Adelina",
+      "popularity": 99800,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "rzadkie"
+    },
+    {
+      "name": "Adriana",
+      "popularity": 99700,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Adrianna",
+      "popularity": 144950,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Agata",
+      "popularity": 182950,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Agnieszka",
+      "popularity": 150650,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Aida",
+      "popularity": 99600,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    },
+    {
+      "name": "Aisha",
+      "popularity": 99500,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    },
+    {
+      "name": "Ala",
+      "popularity": 99400,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Alana",
+      "popularity": 99300,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    },
+    {
+      "name": "Alberta",
+      "popularity": 105050,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Albina",
+      "popularity": 99200,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Aldona",
+      "popularity": 99350,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Aleksandra",
+      "popularity": 208600,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Alena",
+      "popularity": 99100,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Alessandra",
+      "popularity": 99000,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Alexandra",
+      "popularity": 98900,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Alfreda",
+      "popularity": 98800,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "rzadkie"
+    },
+    {
+      "name": "Alia",
+      "popularity": 98700,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    },
+    {
+      "name": "Alice",
+      "popularity": 98600,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Alicja",
+      "popularity": 213350,
+      "meaning": "szlachetna",
+      "category": "popularne"
+    },
+    {
+      "name": "Alina",
+      "popularity": 123100,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Alisa",
+      "popularity": 98500,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    },
+    {
+      "name": "Alma",
+      "popularity": 98400,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    },
+    {
+      "name": "Alyssa",
+      "popularity": 98300,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    },
+    {
+      "name": "Amalia",
+      "popularity": 98200,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Amanda",
+      "popularity": 98100,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    },
+    {
+      "name": "Amelia",
+      "popularity": 210500,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Amina",
+      "popularity": 98000,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    },
+    {
+      "name": "Amélia",
+      "popularity": 97900,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Ana",
+      "popularity": 97800,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    },
+    {
+      "name": "Anabella",
+      "popularity": 97700,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Anastasiia",
+      "popularity": 97600,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Anastazja",
+      "popularity": 185800,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Anatolia",
+      "popularity": 97500,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "rzadkie"
+    },
+    {
+      "name": "Anda",
+      "popularity": 97400,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    },
+    {
+      "name": "Andrea",
+      "popularity": 97300,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Andrzela",
+      "popularity": 97200,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "rzadkie"
+    },
+    {
+      "name": "Andżelika",
+      "popularity": 97100,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Andżelina",
+      "popularity": 97000,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Aneta",
+      "popularity": 96900,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Angela",
+      "popularity": 96800,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Angelika",
+      "popularity": 148750,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Angelina",
+      "popularity": 96700,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Aniela",
+      "popularity": 178200,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Anika",
+      "popularity": 96600,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    },
+    {
+      "name": "Anita",
+      "popularity": 96500,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Anna",
+      "popularity": 220000,
+      "meaning": "łaska",
+      "category": "popularne"
+    },
+    {
+      "name": "Antonella",
+      "popularity": 96400,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Antonia",
+      "popularity": 96300,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Antonina",
+      "popularity": 207650,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Anżelika",
+      "popularity": 96200,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Apolonia",
+      "popularity": 112650,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Ariadna",
+      "popularity": 46150,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    },
+    {
+      "name": "Ariana",
+      "popularity": 96100,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    },
+    {
+      "name": "Ariela",
+      "popularity": 96000,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    },
+    {
+      "name": "Arleta",
+      "popularity": 103150,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Arletta",
+      "popularity": 95900,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Arya",
+      "popularity": 95800,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    },
+    {
+      "name": "Asia",
+      "popularity": 95700,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    },
+    {
+      "name": "Asteria",
+      "popularity": 95600,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    },
+    {
+      "name": "Aurelia",
+      "popularity": 145900,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Aurora",
+      "popularity": 95500,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "popularne"
+    },
+    {
+      "name": "Aya",
+      "popularity": 95400,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    },
+    {
+      "name": "Ayla",
+      "popularity": 95300,
+      "meaning": "Tradycyjne imię o polskich i europejskich korzeniach.",
+      "category": "nowoczesne"
+    }
+  ]
